@@ -1,0 +1,7 @@
+parameters:
+#    whathaveidonenowblog.example.class: whathaveidonenow\blogBundle\Example
+
+services:
+#    whathaveidonenowblog.example:
+#        class: %whathaveidonenowblog.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

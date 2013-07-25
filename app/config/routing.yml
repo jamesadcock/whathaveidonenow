@@ -1,0 +1,4 @@
+whathaveidonenowblog:
+    resource: "@whathaveidonenowblogBundle/Resources/config/routing.yml"
+    prefix:   /
+
