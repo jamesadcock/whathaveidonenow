@@ -1,3 +1,9 @@
 whathaveidonenowblog_homepage:
     pattern:  /home
     defaults: { _controller: whathaveidonenowblogBundle:Default:index }
+
+whathaveidonenowblog_post:
+    pattern:   /post
+    defaults: { _controller: whathaveidonenowblogBundle:Default:post }
+
+

@@ -1,1 +1,45 @@
-Hello {{ name }}!
+{% extends '::base.html.twig' %}
+
+ {% block body %}
+
+     <header>
+         <div id='logo1'> <h1>WhatHaveIDoneNow?!</h1></div>
+         <h4>because no matter what, you'll have done something wrong</h4>
+         <div id='top_post'><button name='Post'>Post a screw up!</button></div>
+     </header>
+
+     <div id='wrapper'>
+         <div id='post'>
+             <div class='body'>
+                 <div id='image'>
+                     <img src="http://lorempixel.com/300/450/" alt="Sorry, we've messed up :(">
+                 </div>
+
+
+                 <div id='comments'>
+                     <P>Comments</P>
+                     <ul>
+                         <button>
+                             <span class= "post_short">+</span>
+                             <span class= "post_long">Post a screw up</span>
+                         </button>
+                         <li>
+                             <button>
+                                 <span class= "comment_short">C</span>
+                                 <span class= "comment">Comment</span>
+                             </button>
+                         </li>
+
+                         <li>
+                             <button>
+                                 <span class= "share_short">S</span>
+                                 <span class= "share">Share</span>
+                             </button>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+ {% endblock %}
