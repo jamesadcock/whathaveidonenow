@@ -12,77 +12,77 @@ use Doctrine\ORM\Mapping as ORM;
 
 class Posts
 {
-    /**
-     * @ORM\Id
-     * @ORM\Column(type="integer")
-     * @ORM\GeneratedValue(strategy="AUTO")
-     */
-    protected $id;
+	/**
+	 * @ORM\Id
+	 * @ORM\Column(type="integer")
+	 * @ORM\GeneratedValue(strategy="AUTO")
+	 */
+	protected $id;
 
-    /**
-     * @ORM\Column(type="string", length=100)
-     */
+	/**
+	 * @ORM\Column(type="string", length=100)
+	 */
 
-    protected $comment;
+	protected $comment;
 
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
-    protected $path;
+	/**
+	 * @ORM\Column(type="string", length=255)
+	 */
+	protected $path;
 
-    /**
-     * Get id
-     *
-     * @return integer 
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
+	/**
+	 * Get id
+	 *
+	 * @return integer
+	 */
+	public function getId()
+	{
+		return $this->id;
+	}
 
-    /**
-     * Set comment
-     *
-     * @param string $comment
-     * @return Posts
-     */
-    public function setComment($comment)
-    {
-        $this->comment = $comment;
-    
-        return $this;
-    }
+	/**
+	 * Set comment
+	 *
+	 * @param string $comment
+	 * @return Posts
+	 */
+	public function setComment($comment)
+	{
+		$this->comment = $comment;
 
-    /**
-     * Get comment
-     *
-     * @return string 
-     */
-    public function getComment()
-    {
-        return $this->comment;
-    }
+		return $this;
+	}
 
-    /**
-     * Set path
-     *
-     * @param string $path
-     * @return Posts
-     */
-    public function setPath($path)
-    {
-        $this->path = $path;
-    
-        return $this;
-    }
+	/**
+	 * Get comment
+	 *
+	 * @return string
+	 */
+	public function getComment()
+	{
+		return $this->comment;
+	}
 
-    /**
-     * Get path
-     *
-     * @return string 
-     */
-    public function getPath()
-    {
-        return $this->path;
-    }
+	/**
+	 * Set path
+	 *
+	 * @param string $path
+	 * @return Posts
+	 */
+	public function setPath($path)
+	{
+		$this->path = $path;
+
+		return $this;
+	}
+
+	/**
+	 * Get path
+	 *
+	 * @return string
+	 */
+	public function getPath()
+	{
+		return $this->path;
+	}
 }
