@@ -19,11 +19,6 @@ class Posts
 	 */
 	protected $id;
 
-	/**
-	 * @ORM\Column(type="string", length=100)
-	 */
-
-	protected $comment;
 
 	/**
 	 * @ORM\Column(type="string", length=255)
@@ -40,28 +35,7 @@ class Posts
 		return $this->id;
 	}
 
-	/**
-	 * Set comment
-	 *
-	 * @param string $comment
-	 * @return Posts
-	 */
-	public function setComment($comment)
-	{
-		$this->comment = $comment;
 
-		return $this;
-	}
-
-	/**
-	 * Get comment
-	 *
-	 * @return string
-	 */
-	public function getComment()
-	{
-		return $this->comment;
-	}
 
 	/**
 	 * Set path

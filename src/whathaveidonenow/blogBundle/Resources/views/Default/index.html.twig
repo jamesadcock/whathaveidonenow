@@ -19,7 +19,7 @@
                  <div id='comments'>
                      <P>Comments</P>
                      <ul>
-                         <button>
+                         <button onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup')}}'">
                              <span class= "post_short">+</span>
                              <span class= "post_long">Post a screw up</span>
                          </button>
@@ -36,13 +36,6 @@
                                  <span class= "share">Share</span>
                              </button>
                          </li>
-                            <br> <br>
-                            <li> {{ post.comment}} </li>
-
-
-
-
-
                      </ul>
                  </div>
              </div>
