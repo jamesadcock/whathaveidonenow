@@ -10,7 +10,6 @@ class DefaultController extends Controller
 {
 	public function indexAction()
 	{
-		//return new Response('<html><body> Blog Test!</body> </html>');
 
 		$posts = $this->getDoctrine()
 		->getRepository('whathaveidonenowblogBundle:Posts')
@@ -22,7 +21,18 @@ class DefaultController extends Controller
 				'whathaveidonenowblogBundle:Default:index.html.twig',$data);
 	}
 
-	public function postAction()
+
+    public function postFormAction()
+    {
+
+        return $this->render(
+            'whathaveidonenowblogBundle:Default:post.html.twig');
+    }
+
+
+
+
+    public function postAction()
 	{
 		$post = new Posts();
 		$post->setPath('/web/020733_2_1.jpg');

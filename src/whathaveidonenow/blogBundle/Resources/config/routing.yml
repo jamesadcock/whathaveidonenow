@@ -6,4 +6,8 @@ whathaveidonenowblog_post:
     pattern:   /post
     defaults: { _controller: whathaveidonenowblogBundle:Default:post }
 
+whathaveidonenowblog_postscrewup:
+    pattern:   /postscrewup
+    defaults: { _controller: whathaveidonenowblogBundle:Default:postForm }
+
 
