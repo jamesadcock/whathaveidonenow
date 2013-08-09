@@ -1,30 +1,30 @@
 {% extends '::base.html.twig' %} {% block body %}
-
+{% block javascript %}
+<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+ 		 js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+{% endblock %}
 <header>
 	<div id='logo1'>
 		<h1>WhatHaveIDoneNow?!</h1>
 	</div>
 	<h4>because no matter what, you'll have done something wrong</h4>
+	<div id='top_post'>
+		<button name='Post'>Post a screw up!</button>
+	</div>
 </header>
-
+</head>
 <div id='wrapper'>
+
 	<div id='add_post'>
 
         {{ form(form) }}
+	</div>
 
-	</div>
-	<div id='instructions'>
-		<p>Instructions</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-			aliquam id velit quis hendrerit. Vestibulum malesuada, urna a
-			interdum fringilla, velit velit malesuada magna, ac egestas augue
-			odio ut velit. Ut nisi sapien, eleifend a risus non, mollis hendrerit
-			elit. Curabitur pretium viverra vestibulum. Vestibulum ante ipsum
-			primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-			Curabitur et mauris quis tellus bibendum ullamcorper. Lorem ipsum
-			dolor sit ametUt nisi sapien, eleifend a risus non, mollis hendrerit
-			elit. Curabitur pretium viverra vestibulum. Vestibulum ante ipsum
-			primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-			Curabitur et mauris quis tellus bibendum ullamcorper.</p>
-	</div>
+</div>
+
 	{% endblock %}

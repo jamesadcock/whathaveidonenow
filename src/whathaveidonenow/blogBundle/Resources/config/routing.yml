@@ -1,5 +1,5 @@
 whathaveidonenowblog_homepage:
-    pattern:  /home
+    pattern:  /
     defaults: { _controller: whathaveidonenowblogBundle:Default:index }
 
 whathaveidonenowblog_postscrewup:
