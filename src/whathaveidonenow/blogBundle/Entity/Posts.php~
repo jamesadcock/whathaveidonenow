@@ -5,34 +5,50 @@ namespace whathaveidonenow\blogBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
+ * Posts
+ *
+ * @ORM\Table()
  * @ORM\Entity
- * @ORM\Table(name="posts")
  */
-
-
 class Posts
 {
     /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
      * @ORM\Id
-     * @ORM\Column(type="integer")
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    protected $id;
+    private $id;
 
     /**
-     * @ORM\Column(type="string", length=100)
+     * @var string
+     *
+     * @ORM\Column(name="title", type="string", length=255)
      */
-     protected $name;
+    private $title;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @var string
+     *
+     * @ORM\Column(name="description", type="string", length=255)
      */
-    protected $comment;
+    private $description;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @var string
+     *
+     * @ORM\Column(name="relation", type="string", length=255)
      */
-    protected $path;
+    private $relation;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="file", type="string", length=255)
+     */
+    private $file;
+
 
     /**
      * Get id
@@ -45,48 +61,94 @@ class Posts
     }
 
     /**
-     * Set name
+     * Set title
      *
-     * @param string $name
+     * @param string $title
      * @return Posts
      */
-    public function setName($name)
+    public function setTitle($title)
     {
-        $this->name = $name;
+        $this->title = $title;
     
         return $this;
     }
 
     /**
-     * Get name
+     * Get title
      *
      * @return string 
      */
-    public function getName()
+    public function getTitle()
     {
-        return $this->name;
+        return $this->title;
     }
 
     /**
-     * Set comment
+     * Set description
      *
-     * @param string $comment
+     * @param string $description
      * @return Posts
      */
-    public function setComment($comment)
+    public function setDescription($description)
     {
-        $this->comment = $comment;
+        $this->description = $description;
     
         return $this;
     }
 
     /**
-     * Get comment
+     * Get description
      *
      * @return string 
      */
-    public function getComment()
+    public function getDescription()
     {
-        return $this->comment;
+        return $this->description;
+    }
+
+    /**
+     * Set relation
+     *
+     * @param string $relation
+     * @return Posts
+     */
+    public function setRelation($relation)
+    {
+        $this->relation = $relation;
+    
+        return $this;
+    }
+
+    /**
+     * Get relation
+     *
+     * @return string 
+     */
+    public function getRelation()
+    {
+        return $this->relation;
+    }
+
+    /**
+     * Set file
+     *
+     * @param string $file
+     * @return Posts
+     */
+    public function setFile($file)
+    {
+        $this->file = $file;
+    
+        return $this;
+    }
+
+    /**
+     * Get file
+     *
+     * @return string 
+     */
+    public function getFile()
+    {
+        return $this->file;
     }
 }

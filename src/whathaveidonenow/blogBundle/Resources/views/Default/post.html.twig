@@ -9,21 +9,9 @@
 
 <div id='wrapper'>
 	<div id='add_post'>
-		<form name='add_post' action='--' method='get'>
-			<P>My Screw Up</P>
-			<input type='text' name='Title' placeholder='Title' class='title'
-				required='true'><br> <input type='textarea' name='Description'
-				placeholder='Description' class='description'><br>
-			<p>From the:</p>
-			<input type='radio' name='relationship' value='girlfriend'
-				class='relationship'>Girlfriend<br> <input type='radio'
-				name='relationship' value='wife' class='relationship'>Wife<br> <input
-				type='radio' name='relationship' value='boyfriend'
-				class='relationship'>Boyfriend<br> <input type='radio'
-				name='relationship' value='husband' class='relationship'>Husband<br>
-			<input type='file' width='40' name='file' id='file'><br> <input type='submit'
-				value='Submit' class='submit'>
-		</form>
+
+        {{ form(form) }}
+
 	</div>
 	<div id='instructions'>
 		<p>Instructions</p>
