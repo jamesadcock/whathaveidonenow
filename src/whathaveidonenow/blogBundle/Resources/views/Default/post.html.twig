@@ -22,7 +22,17 @@
 
 	<div id='add_post'>
 
-        {{ form(form) }}
+        {{ form_start(form) }}
+        {{ form_errors(form) }}
+
+        {{ form_row(form.title) }}
+        {{ form_row(form.description) }}
+        {{ form_row(form.relation) }}
+        {{ form_row(form.file) }}
+
+        <input type="submit" />
+        {{ form_end(form) }}
+
 	</div>
 
 </div>
