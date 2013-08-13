@@ -73,7 +73,7 @@
       <file leaf-file-name="Posts.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Entity/Posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="25" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.26030368">
+            <state line="17" column="36" selection-start="320" selection-end="320" vertical-scroll-proportion="0.48806942">
               <folding />
             </state>
           </provider>
@@ -82,7 +82,7 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="40" selection-start="1677" selection-end="1677" vertical-scroll-proportion="-8.576923">
+            <state line="47" column="40" selection-start="1677" selection-end="1677" vertical-scroll-proportion="-8.115385">
               <folding />
             </state>
           </provider>
@@ -392,13 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="40" selection-start="1677" selection-end="1677" vertical-scroll-proportion="-8.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="7" selection-start="643" selection-end="643" vertical-scroll-proportion="-12.5">
@@ -418,9 +411,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="40" selection-start="1677" selection-end="1677" vertical-scroll-proportion="-8.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Entity/Posts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="25" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.26030368">
+        <state line="17" column="36" selection-start="320" selection-end="320" vertical-scroll-proportion="0.48806942">
           <folding />
         </state>
       </provider>

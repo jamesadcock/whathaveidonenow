@@ -15,6 +15,11 @@ use Symfony\Component\HttpFoundation\File\UploadedFile;
 class Posts
 {
     /**
+     * @Assert\File(maxSize="6000000")
+     */
+    private $file;
+
+    /**
      * @var integer
      *
      * @ORM\Column(name="id", type="integer")
@@ -49,11 +54,6 @@ class Posts
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     public $path;
-
-    /**
-     * @ORM\Column(type="string", length=255, nullable=true)
-     */
-    public $file;
 
     public function getId()
     {
@@ -193,8 +193,6 @@ class Posts
             ? null
             : $this->getUploadDir().'/'.$this->path;
     }
-
-
 
     /**
      * Set path
