@@ -1,0 +1,23 @@
+git init (in directory you wish project to run from)
+git clone https://github.com/jamesadcock/whathaveidonenow.git
+cd whathaveidonenow
+sudo apt-get update
+sudo apt-get install curl (only need to do this once)
+sudo service apache2 restart
+curl -s http://getcomposer.org/installer | php
+php composer.phar install
+sudo chmod 777 app/cache
+sudo chmod 777 app/logs
+php app/console doctrine:database:create
+php app/console doctrine:schema:update --force
+php app/console cache:clear --env=prod --no-debug (when deploying to live)
+
+
+Notes:
+
+DB IP always: 127:0:0:1
+When updating db run php composer.phar install
+
+[mysqld]
+collation-server = utf8_general_ci
+character-set-server = utf8 
