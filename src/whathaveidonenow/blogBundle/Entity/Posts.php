@@ -50,14 +50,10 @@ class Posts
      */
     public $path;
 
-
     /**
-     * Get id
-     *
-     * @return integer 
+     * @ORM\Column(type="string", length=255, nullable=true)
      */
-
-    private $file;
+    public $file;
 
     public function getId()
     {
@@ -189,5 +185,37 @@ class Posts
 
         // clean up the file property as you won't need it anymore
         $this->file = null;
+    }
+
+    public function getWebPath()  // get relative path file has been save too.
+    {
+        return null === $this->path
+            ? null
+            : $this->getUploadDir().'/'.$this->path;
+    }
+
+
+
+    /**
+     * Set path
+     *
+     * @param string $path
+     * @return Posts
+     */
+    public function setPath($path)
+    {
+        $this->path = $path;
+    
+        return $this;
+    }
+
+    /**
+     * Get path
+     *
+     * @return string 
+     */
+    public function getPath()
+    {
+        return $this->path;
     }
 }

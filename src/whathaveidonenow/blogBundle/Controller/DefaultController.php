@@ -42,8 +42,11 @@ class DefaultController extends Controller
 
         if ($form->isValid())  // if form submitted and valid
         {
+
             $em = $this->getDoctrine()->getManager();
             $post->upload();  //move file to to web/uploads/documents
+            $path = $post->getWebPath();
+            $post->setPath($path);
             $em->persist($post);
             $em->flush();  // persist post properties to DB;
             return $this->redirect($this->generateUrl('whathaveidonenowblog_homepage'));  //redirect to homepage after submission
