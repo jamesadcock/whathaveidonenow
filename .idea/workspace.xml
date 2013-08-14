@@ -50,7 +50,7 @@
       <file leaf-file-name="index.html.twig" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="165" selection-start="2363" selection-end="2363" vertical-scroll-proportion="0.69196427">
+            <state line="47" column="177" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.3638393">
               <folding />
             </state>
           </provider>
@@ -483,7 +483,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="165" selection-start="2363" selection-end="2363" vertical-scroll-proportion="0.69196427">
+        <state line="47" column="177" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.3638393">
           <folding />
         </state>
       </provider>
