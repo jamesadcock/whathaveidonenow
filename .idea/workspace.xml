@@ -8,7 +8,7 @@
     <file path="/routing.yml" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1375739873259" ignored="false" />
     <file path="/DefaultController.php" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376375541363" ignored="false" />
     <file path="/index.html.twig" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376376695589" ignored="false" />
-    <file path="/base.html.twig" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1374941198750" ignored="false" />
+    <file path="/base.html.twig" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376514412494" ignored="false" />
     <file path="/main.css" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1375546800437" ignored="false" />
     <file path="$PROJECT_DIR$/app/cache/dev/twig/fb/40/226844598bb44c392ff84ad7965c.php" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1374938933120" ignored="false" />
     <file path="/Post.php" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1374999743874" ignored="false" />
@@ -47,10 +47,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="177" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.3638393">
+            <state line="55" column="11" selection-start="2118" selection-end="2118" vertical-scroll-proportion="-34.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="76" selection-start="733" selection-end="733" vertical-scroll-proportion="0.45553145">
               <folding />
             </state>
           </provider>
@@ -76,12 +85,12 @@
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/success.html.twig" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/config/validation.yml" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/post.html.twig" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Entity/Posts.php" />
         <option value="$PROJECT_DIR$/web/.htaccess" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       </list>
     </option>
   </component>
@@ -134,6 +143,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,6 +271,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,16 +533,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="7" selection-start="643" selection-end="643" vertical-scroll-proportion="0.66964287">
+        <state line="55" column="11" selection-start="2118" selection-end="2118" vertical-scroll-proportion="-34.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="177" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.3638393">
+        <state line="14" column="76" selection-start="733" selection-end="733" vertical-scroll-proportion="0.45553145">
           <folding />
         </state>
       </provider>
