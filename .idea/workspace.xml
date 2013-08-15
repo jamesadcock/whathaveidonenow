@@ -47,19 +47,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="85" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.04017857">
+            <state line="39" column="29" selection-start="1505" selection-end="1505" vertical-scroll-proportion="-7.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html.twig" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="884" selection-end="884" vertical-scroll-proportion="-10.0">
+            <state line="4" column="81" selection-start="148" selection-end="148" vertical-scroll-proportion="0.13015184">
               <folding />
             </state>
           </provider>
@@ -89,8 +89,8 @@
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Entity/Posts.php" />
         <option value="$PROJECT_DIR$/web/.htaccess" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       </list>
     </option>
   </component>
@@ -527,16 +527,16 @@
         <state line="17" column="36" selection-start="320" selection-end="320" vertical-scroll-proportion="0.03253796" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="884" selection-end="884" vertical-scroll-proportion="-10.0">
+        <state line="39" column="29" selection-start="1505" selection-end="1505" vertical-scroll-proportion="-7.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="85" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.04017857">
+        <state line="4" column="81" selection-start="148" selection-end="148" vertical-scroll-proportion="0.13015184">
           <folding />
         </state>
       </provider>
