@@ -26,32 +26,17 @@
          <div id='post'>
              <div class='body'>
                  <div id='image'>
-                     <img src="{{asset(post.path)}}" alt="Sorry, we've messed up :(">
+                     <img src="{{asset(post.path)}}" alt="Sorry, we've messed up :("  width="450" height="300">
                  </div>
 
 
                  <div id='comments'>
                      <P>Comments</P>
-                     <ul>
-                         <button onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup')}}'">
-                             <span class= "post_short">+</span>
-                             <span class= "post_long">Post a screw up</span>
-                         </button>
-                         <li>
-                             <button>
-                                 <span class= "comment_short">C</span>
-                                 <span class= "comment">Comment</span>
-                             </button>
-                         </li>
 
-                         <li>
-                             <div class="fb-like" data-href="http://whathaveidonenow.com" data-width="400" data-colorscheme="dark" data-show-faces="true" data-send="true"></div>
-                             <div class="fb-comments" data-href="http://whathaveidonenow.com" data-colorscheme="dark" data-width="400"></div>
-                         </li>
-                     </ul>
+                             <div class="fb-like" data-href="http://whathaveidonenow.com/post{{ loop.index }}" data-width="400" data-colorscheme="dark" data-show-faces="true" data-send="true"></div>
+                             <div class="fb-comments" data-href="http://whathaveidonenow.com/post{{ loop.index }}" data-colorscheme="dark" data-width="400"></div>
+
                  </div>
-
-                 <
                  </div>
          </div>
      </div>
