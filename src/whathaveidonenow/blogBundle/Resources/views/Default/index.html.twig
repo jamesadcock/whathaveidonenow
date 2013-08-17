@@ -34,7 +34,6 @@
      <header>
          <div id='logo1'> <h1>WhatHaveIDoneNow?!</h1></div>
          <h4>because no matter what, you'll have done something wrong</h4>
-         <div id="top_post"><button name="Post" onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup')}}'">Post a screw up!</button></div>
      </header>
      {% for post in posts %}
      <div id='wrapper'>
@@ -53,9 +52,6 @@
                      		Description goes here Description goes here 
                      		Description goes here Description goes here 
                      		Description goes here  Description goes here </p>
-                             <button onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup')}}'">
-                             <span class= "post_short">+</span>
-                             <span class= "post_long">Post a screw up</span>
                          </button>
                          <p>Total number of commentsgoes here</p>
                          

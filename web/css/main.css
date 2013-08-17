@@ -143,24 +143,28 @@ h4 {
 #add_post {
 	padding-right: 225px;
 	float: left;
-	border-right: dashed;
-	border-color: #C8C8C8;
-	border-width: 3px;
-	height: 100%;
-}
-
-#add_post > form {
 	font-family: 'Numans', sans-serif;
 	font-weight: 400;
-	padding: 2px;
+	padding: 50px;
 	text-align: left;
-	text-color
-	text-align: centre;
 }
 
-#add_post > form.title {
-	text-color: red;
+
+#title {
+	padding:10px;
 }
+#description {
+	padding:10px;
+}
+
+#relation {
+	padding:10px;
+}
+
+#file {
+	padding:10px;
+}
+
 
 #instructions {
 	float: right;
@@ -174,7 +178,6 @@ h4 {
 	padding-bottom: 10px;
 	text-align: left;
 	border: dashed;
-	text-color: black;
 	border-color: #C8C8C8;
 	border-top: 1px;
 	border-right: 1px;
@@ -211,11 +214,10 @@ button {
 	text-decoration: none;
 	vertical-align: middle;
 }
-.button:hover {
-	border-top-color: #218a1c;
-	background: #218a1c;
-	color: #ccc;
-}
+button:hover  {
+	border-top-color: #1c8234;
+	background: #1c8234;
+	}
 .button:active {
 	border-top-color: #0e540d;
 	background: #0e540d;
@@ -226,6 +228,7 @@ button {
 	right: 0;
 	top: 50%;
 	margin-top: -2.5em;
+	margin-left:-10px;
 	background-color: black;
 	opacity: 0.6;
 	filter: alpha(opacity=60);
@@ -245,3 +248,20 @@ button {
 	opacity:1.0;
 	filter: alpha(opacity=100);
 }
+
+#post_banner {
+	position:fixed;
+	right: 0;
+	top: 0
+}
+
+#Post{
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
+	width:300px;
+	margin-top:50px;
+	margin-right:-80px;
+} 

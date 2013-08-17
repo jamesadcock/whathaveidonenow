@@ -1,27 +1,37 @@
-{% extends '::base.html.twig' %} {% block body %}
+{% extends "::base.html.twig" %} {% block body %}
 <header>
-	<div id='logo1'>
+	<div id="logo1">
 		<h1>WhatHaveIDoneNow?!</h1>
 	</div>
-	<h4>because no matter what, you'll have done something wrong</h4>
-	<div id='top_post'>
-		<button name="Post" onclick="self.location='{{ path('whathaveidonenowblog_homepage')}}'">Home!</button>
-	</div>
+	<h4>because no matter what, you"ll have done something wrong</h4>
 </header>
-<div id='wrapper'>
+<div id="wrapper">
 
-	<div id='add_post'>
+	<div id="add_post">
 
         {{ form_start(form) }}
         {{ form_errors(form) }}
 
-        {{ form_row(form.title) }}
-        {{ form_row(form.description) }}
-        {{ form_row(form.relation) }}
-        {{ form_row(form.file) }}
+      <div id="title">  {{ form_row(form.title) }} </div>
+      <div id="description"> {{ form_row(form.description) }} </div>
+      <div id="relation"> {{ form_row(form.relation) }} </div>
+      <div id="file"> {{ form_row(form.file) }} </div>
 
         {{ form_end(form) }}
 
+	</div>
+	
+	<div id='instructions'>
+		<p>Instructions</p>
+		<p>It is incredible easy to post your screw ups! </br>
+			1. Give your post a title </br>
+ 			2. Enter some text describing how you "screwed up."</br>
+ 			3. Select who sent you the message. </br>
+ 			4. Upload the screenshot of the email or text. </br>
+ 			5. Finally, Click Save! </br>
+ 			</br>
+ 			Guides on taking screenshots and posting from  mobile phones
+ 			can be found here: </p>
 	</div>
 
 </div>
