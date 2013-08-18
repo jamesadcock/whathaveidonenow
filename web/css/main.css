@@ -101,19 +101,97 @@ h4 {
 	line-height: 10%;
 }
 
+<<<<<<< HEAD
+=======
+a {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	margin-bottom: 30px;
+	background: -moz-linear-gradient(top, #2dbd20 0%, #3b990c);
+	background: -webkit-gradient(linear, left top, left bottom, from(#2dbd20),
+		to(#3b990c) );
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	border: 1px solid #000000;
+	-moz-box-shadow: 0px 1px 3px rgba(000, 000, 000, 0.5), inset 0px 0px 1px
+		rgba(255, 255, 255, 0.7);
+	-webkit-box-shadow: 0px 1px 3px
+		rgba(000, 000, 000, < div id = 'left' > 0.5), inset 0px 0px 1px
+		rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 1px 3px rgba(000, 000, 000, 0.5), inset 0px 0px 1px
+		rgba(255, 255, 255, 0.7);
+	text-shadow: 0px -1px 0px rgba(000, 000, 000, 0.4), 0px 1px 0px
+		rgba(255, 255, 255, 0.3);
+}
+
+button {
+	text-decoration: none;
+	font-size: 20px;
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	border: solid;
+	color: grey;
+	border-color: grey;
+	border-width: 2px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+}
+
+button .comment {
+	display: none;
+}
+
+button:hover .comment_short {
+	display: none;
+}
+
+button:hover .comment {
+	display: inline;
+}
+
+button .share {
+	display: none;
+}
+
+button:hover .share_short {
+	display: none;
+}
+
+button:hover .share {
+	display: inline;
+}
+
+button .post_long {
+	display: none;
+}
+
+button:hover .post_short {
+	display: none;
+}
+
+button:hover .post_long {
+	display: inline;
+}
+
+>>>>>>> a3de05d1d94c5319727f052b65c33c9ad6775919
 #image {
 	float: left;
 	background-color: white;
 	border: dashed;
 	color: #C8C8C8;
 	border-width: 1px;
-	width: 600px;
+	width: 490px;
 	height: 450px;
 }
 
 #comments {
 	float: right;
-	width: 300px;
+	width: 410px;
 }
 
 #comments p {
