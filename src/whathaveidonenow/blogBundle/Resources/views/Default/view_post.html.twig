@@ -1,4 +1,4 @@
-{% extends '::base.html.twig' %}
+<{% extends '::base.html.twig' %}
 
  {% block javascripts %}
 
@@ -30,14 +30,11 @@
 
 
                  <div id='comments'>
-                     <P>title goes here! Also links to view_post.html.twig</P>
-                     		<p>Description goes here
-                     		Description goes here Description goes here 
-                     		Description goes here Description goes here 
-                     		Description goes here Description goes here 
-                     		Description goes here  Description goes here </p>
-                         </button>
-                         <p>Total number of commentsgoes here</p>
+                     <P>Comments</P>
+
+                             <div class="fb-like" data-href="http://whathaveidonenow.com/post{{ loop.index }}" data-width="400" data-colorscheme="dark" data-show-faces="true" data-send="true"></div>
+                             <div class="fb-comments" data-href="http://whathaveidonenow.com/post{{ loop.index }}" data-colorscheme="light" data-width="960"></div>
+
                  </div>
                  </div>
          </div>
