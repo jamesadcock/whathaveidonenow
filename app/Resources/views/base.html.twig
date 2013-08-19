@@ -1,31 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="UTF-8" />
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}WhatHaveIDoneNow?{% endblock %}</title>
         {% block stylesheets %}
             <link href="{{ asset("css/main.css") }}" rel="stylesheet" />
         {% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset("favicon.ico") }}" />
-        <div id="social_network">
- 		<header>
-        <ul>
-        <li id="follow"><p>Follow us!</p>
-		<li id="facebook"><a href="www.facebook.com" target="blank"><img src="../images/facebook.png" alt="facebookicon"></a></li>
-		<li id="twitter"><a href="www.twitter.com" target="blank"><img src="../images/twitter.png" alt="twittericon"></a></li>
-		</ul>
-        </div>
-        
-        <div id="post_banner">
-        <button id="Post" name="Post" onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup')}}'">Post a screw up!</button>
-        </div>
     </head>
+
     <body>
         {% block javascripts %}{% endblock %}
         {% block body %}{% endblock %}
     </body>
-    
+
     {% block footer %}
     <footer>
     <div id="footer">

@@ -24,7 +24,7 @@ class DefaultController extends Controller
 	}
 
 
-    public function postFormAction(Request $request)  //controller for postscrewup page
+    public function postFormAction(Request $request)  //controller for addpost page
     {
         $post = new Posts();
         $form = $this->createFormBuilder($post)
@@ -52,9 +52,27 @@ class DefaultController extends Controller
             return $this->redirect($this->generateUrl('whathaveidonenowblog_homepage'));  //redirect to homepage after submission
         };
 
-        return $this->render('whathaveidonenowblogBundle:Default:post.html.twig', array(
+        return $this->render('whathaveidonenowblogBundle:Default:addpost.html.twig', array(
             'form' => $form->createView(),
         ));
+    }
+
+
+    public function viewPostAction($id)  //controller for post page
+    {
+        $post = $this->getDoctrine()
+            ->getRepository('whathaveidonenowblogBundle:Posts')
+            ->find($id);
+
+        if (!$post) {
+            throw $this->createNotFoundException(
+                'No post found for id '.$id
+            );
+        }
+
+        $data['post']=$post;
+
+        return $this->render('whathaveidonenowblogBundle:Default:post.html.twig',$data);
     }
 }
 

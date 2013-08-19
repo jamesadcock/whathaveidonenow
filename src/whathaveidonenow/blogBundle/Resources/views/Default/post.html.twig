@@ -1,37 +1,44 @@
-{% extends "::base.html.twig" %} {% block body %}
-<header>
-	<div id="logo1">
-		<h1>WhatHaveIDoneNow?!</h1>
-	</div>
-	<h4>because no matter what, you"ll have done something wrong</h4>
-</header>
-<div id="wrapper">
+{% extends '::base.html.twig' %}
 
-	<div id="add_post">
+ {% block javascripts %}
 
-        {{ form_start(form) }}
-        {{ form_errors(form) }}
+     <div id="fb-root"></div>
+     <script>(function(d, s, id) {
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) return;
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1404066886485988";
+             fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+     </script>
 
-      <div id="title">  {{ form_row(form.title) }} </div>
-      <div id="description"> {{ form_row(form.description) }} </div>
-      <div id="relation"> {{ form_row(form.relation) }} </div>
-      <div id="file"> {{ form_row(form.file) }} </div>
 
-        {{ form_end(form) }}
+ {% endblock %}
 
-	</div>
-	
-	<div id='instructions'>
-		<p>Instructions</p>
-		<p>It is incredible easy to post your screw ups! </br>
-			1. Give your post a title </br>
- 			2. Enter some text describing how you "screwed up."</br>
- 			3. Select who sent you the message. </br>
- 			4. Upload the screenshot of the email or text. </br>
- 			5. Finally, Click Save! </br>
- 			</p>
-	</div>
+ {% block body %}
 
-</div>
+     <header>
+         <div id='logo1'> <a href="{{path('whathaveidonenowblog_homepage')}}"> <h1>WhatHaveIDoneNow?!</h1></a></div>
+         <h4>because no matter what, you'll have done something wrong</h4>
+     </header>
+     <div id='wrapper'>
+         <div id='post'>
+             <div class='body'>
+                 <div id='image'>
+                     <img src="{{asset(post.path)}}" alt="Sorry, we've messed up :("  width="450" height="300">
+                 </div>
 
-	{% endblock %}
+
+                 <div id='comments'>
+                     <P>Comments</P>
+
+                             <div class="fb-like" data-href="{{ app.request.uri }}" data-width="400" data-colorscheme="dark" data-show-faces="true" data-send="true"></div>
+                             <div class="fb-comments" data-href="{{ app.request.uri }}" data-colorscheme="light" data-width="400"></div>
+
+                 </div>
+                 </div>
+         </div>
+     </div>
+ {% endblock %}
+
+

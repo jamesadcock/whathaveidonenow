@@ -30,16 +30,21 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/layout.html.twig" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Twig/Extension/DemoExtension.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/add_post.html.twig" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/new.html.twig" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/post.html.twig" afterPath="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/addpost.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/view_post.html.twig" afterPath="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/post.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="whathaveidonenow.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1375740125469" ignored="false" />
-    <file path="/routing.yml" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1375739873259" ignored="false" />
-    <file path="/DefaultController.php" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376375541363" ignored="false" />
-    <file path="/index.html.twig" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376636519987" ignored="false" />
-    <file path="/base.html.twig" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376514412494" ignored="false" />
+    <file path="/routing.yml" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376933777832" ignored="false" />
+    <file path="/DefaultController.php" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376933947188" ignored="false" />
+    <file path="/index.html.twig" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376948007331" ignored="false" />
+    <file path="/base.html.twig" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376945535016" ignored="false" />
     <file path="/main.css" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376636740897" ignored="false" />
     <file path="$PROJECT_DIR$/app/cache/dev/twig/fb/40/226844598bb44c392ff84ad7965c.php" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1374938933120" ignored="false" />
     <file path="/Post.php" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1374999743874" ignored="false" />
@@ -47,7 +52,7 @@
     <file path="/Task.php" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1375685723527" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Tests/Generator/BundleGeneratorTest.php" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1375567637593" ignored="false" />
     <file path="/myController.php" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1375567689377" ignored="false" />
-    <file path="/Dummy.txt" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376633501114" ignored="false" />
+    <file path="/Dummy.txt" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376933533165" ignored="false" />
     <file path="/BlogType.php" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1375607870113" ignored="false" />
     <file path="/success.html.twig" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1375739828518" ignored="false" />
     <file path="$PROJECT_DIR$/app/logs/dev.log" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376085180917" ignored="false" />
@@ -55,6 +60,7 @@
     <file path="/post.html.twig" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376255981748" ignored="false" />
     <file path="/Posts.php" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376374732822" ignored="false" />
     <file path="/.gitignore" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376636832602" ignored="false" />
+    <file path="/view_post.html.twig" changelist="972cfbc2-ac48-418d-b052-14e0e8408eba" time="1376933621683" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,58 +85,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig">
+      <file leaf-file-name="DefaultController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="97" selection-start="1490" selection-end="1490" vertical-scroll-proportion="-14.333333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/post.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="49" selection-start="49" selection-end="49" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="16" selection-start="3246" selection-end="3246" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".project" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.project">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="14" selection-start="175" selection-end="175" vertical-scroll-proportion="0.26737967">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="81" selection-start="148" selection-end="148" vertical-scroll-proportion="-2.5">
+            <state line="54" column="68" selection-start="2013" selection-end="2013" vertical-scroll-proportion="1.4053538">
               <folding />
             </state>
           </provider>
@@ -154,31 +112,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/Form/Type/BlogType.php" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/new.html.twig" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Entity/Task.php" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/success.html.twig" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/config/validation.yml" />
-        <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/post.html.twig" />
-        <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Entity/Posts.php" />
         <option value="$PROJECT_DIR$/web/.htaccess" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/post.html.twig" />
+        <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/view_post.html.twig" />
+        <option value="$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Controller/DefaultController.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
+    <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1303" />
-    <option name="height" value="745" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -235,7 +193,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,6 +291,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whathaveidonenow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -260,10 +320,10 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -314,7 +374,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="24" width="1303" height="745" extended-state="7" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -322,7 +382,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26059154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22621903" sideWeight="0.67184466" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29383507" sideWeight="0.67184466" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -400,11 +460,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="0.37433156" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="8" selection-start="411" selection-end="411" vertical-scroll-proportion="0.31284916" />
@@ -430,16 +485,6 @@
         <state line="0" column="0" selection-start="0" selection-end="115" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="29" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="40" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="80" selection-start="389" selection-end="389" vertical-scroll-proportion="0.12371134" />
@@ -450,47 +495,62 @@
         <state line="17" column="36" selection-start="320" selection-end="320" vertical-scroll-proportion="0.03253796" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="16" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="14" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="81" selection-start="148" selection-end="148" vertical-scroll-proportion="-2.5">
+        <state line="5" column="49" selection-start="234" selection-end="234" vertical-scroll-proportion="-3.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="97" selection-start="1490" selection-end="1490" vertical-scroll-proportion="-14.333333">
+        <state line="35" column="109" selection-start="1492" selection-end="1576" vertical-scroll-proportion="-10.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/addpost.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="85" selection-end="169" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/views/Default/post.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="49" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+        <state line="35" column="128" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.665392">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="16" selection-start="3246" selection-end="3246" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="29" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/whathaveidonenow/blogBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="175" selection-end="175" vertical-scroll-proportion="0.26737967">
+        <state line="54" column="68" selection-start="2013" selection-end="2013" vertical-scroll-proportion="1.4053538">
           <folding />
         </state>
       </provider>

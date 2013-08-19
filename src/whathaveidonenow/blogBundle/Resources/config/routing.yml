@@ -3,12 +3,12 @@ whathaveidonenowblog_homepage:
     defaults: { _controller: whathaveidonenowblogBundle:Default:index }
 
 whathaveidonenowblog_postscrewup:
-    pattern:   /postscrewup
+    pattern:   /addpost
     defaults: { _controller: whathaveidonenowblogBundle:Default:postForm }
 
-whathaveidonenowblog_testconfirm:
-    pattern: /testconfirm
-    defaults: {_controller: whathaveidonenowblogBundle:Default:success}
+whathaveidonenowblog_viewpost:
+    pattern: /post/{id}
+    defaults: {_controller: whathaveidonenowblogBundle:Default:viewPost}
 
 
 
