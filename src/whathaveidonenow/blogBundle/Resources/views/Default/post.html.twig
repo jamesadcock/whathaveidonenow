@@ -16,24 +16,35 @@
  {% endblock %}
 
  {% block body %}
-
+	 <div id="social_network">
+         <ul>
+             <li id="follow"><p>Follow us!</p>
+             <li> <a href="https://www.facebook.com/pages/What-Have-I-Done-Now/492860340799257" target="_blank"><img src="../images/facebook.png" alt="Facebook" width="48" height="48" border="0"></a>  </li>
+             <li> <a href="https://twitter.com/wathaveidonenow" class="" data-show-count="false" data-lang="en"><img src="../images/twitter.png" alt="Twitter" width="48" height="48" border="0"></a></li>
+         </ul>
+     </div>
+	<div id="post_banner">
+         <button id="Post" name="Post" onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup')}}'">Post a screw up!</button>
+     </div>
      <header>
-         <div id='logo1'> <a href="{{path('whathaveidonenowblog_homepage')}}"> <h1>WhatHaveIDoneNow?!</h1></a></div>
-         <h4>because no matter what, you'll have done something wrong</h4>
-     </header>
-     <div id='wrapper'>
+	<div id="logo1">
+        <div id="header_link"><a href="{{path('whathaveidonenowblog_homepage')}}"><h1>WhatHaveIDoneNow?!</h1></a></div>
+	</div>
+	<h4>because no matter what, you"ll have done something wrong</h4>
+</header>
+     <div id='wrapper_post'>
          <div id='post'>
              <div class='body'>
                  <div id='image'>
-                     <img src="{{asset(post.path)}}" alt="Sorry, we've messed up :("  width="450" height="300">
+                     <img src="{{asset(post.path)}}" alt="Sorry, we've messed up :("  width="900" height="600">
                  </div>
 
 
-                 <div id='comments'>
+                 <div id='facebook_comments'>
                      <P>Comments</P>
 
                              <div class="fb-like" data-href="{{ app.request.uri }}" data-width="400" data-colorscheme="dark" data-show-faces="true" data-send="true"></div>
-                             <div class="fb-comments" data-href="{{ app.request.uri }}" data-colorscheme="light" data-width="400"></div>
+                             <div class="fb-comments" data-href="{{ app.request.uri }}" data-colorscheme="light" data-width="900"></div>
 
                  </div>
                  </div>
