@@ -23,6 +23,11 @@ body {
 	border-radius: 10px;
 }
 
+#header_link a {
+	text-decoration: none;
+	color:red;
+}
+
 #wrapper {
 	height: 460px;
 	width: 960px;
@@ -78,6 +83,7 @@ h1 {
 	font-size: 72px;
 	color: #C8C8C8;
 	line-height: 10%;
+	text-decoration:none;
 }
 
 #logo {
@@ -165,7 +171,7 @@ button:hover .post_long {
 
 #comments {
 	float: right;
-	width: 410px;
+	width: 340px;
 }
 
 #comments p {
@@ -317,3 +323,40 @@ button:hover  {
 	margin-top:50px;
 	margin-right:-80px;
 } 
+
+
+#wrapper_post {
+	height: 100%;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	padding: 15px;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	color: #000;
+	background: #f3961c;
+	/* default background for browsers without gradient support */
+	/* css3 */
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff),
+	to(#e1e2e3) );
+	background: -moz-linear-gradient(#ffffff, #e1e2e3);
+	background: -o-linear-gradient(#ffffff, #e1e2e3);
+	background: linear-gradient(#ffffff, #e1e2e3);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#wrapper_post:after {
+	content: "";
+	position: absolute;
+	bottom: -15px; /* value = - border-top-width - border-bottom-width */
+	left: 50px; /* controls horizontal position */
+	border-width: 15px 15px 0;
+	/* vary these values to change the angle of the vertex */
+	border-style: solid;
+	border-color: #e1e2e3 transparent;
+	/* reduce the damage in FF3.0 */
+	display: block;
+	width: 0;
+}

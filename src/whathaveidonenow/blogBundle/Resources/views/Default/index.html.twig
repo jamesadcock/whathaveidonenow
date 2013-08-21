@@ -24,8 +24,8 @@
      <div id="social_network">
          <ul>
              <li id="follow"><p>Follow us!</p>
-             <li> <div class="fb-follow" data-href="https://www.facebook.com/pages/What-Have-I-Done-Now/492860340799257" data-width="450" data-show-faces="true"></div>  </li>
-             <li> <a href="https://twitter.com/wathaveidonenow" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @twitterapi</a></li>
+             <li> <a href="https://www.facebook.com/pages/What-Have-I-Done-Now/492860340799257" target="_blank"><img src="../images/facebook.png" alt="Facebook" width="48"></a>  </li>
+             <li> <a href="https://twitter.com/wathaveidonenow" class="" data-show-count="false" data-lang="en"><img src="../images/twitter.png" alt="Twitter"></a></li>
          </ul>
      </div>
 
@@ -33,23 +33,25 @@
          <button id="Post" name="Post" onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup')}}'">Post a screw up!</button>
      </div>
      <header>
-         <div id='logo1'><a href="{{path('whathaveidonenowblog_homepage')}}"> <h1>WhatHaveIDoneNow?!</h1></a></div>
-         <h4>because no matter what, you'll have done something wrong</h4>
-     </header>
+	<div id="logo1">
+        <div id="header_link"><a href="{{path('whathaveidonenowblog_homepage')}}"><h1>WhatHaveIDoneNow?!</h1></a></div>
+	</div>
+	<h4>because no matter what, you"ll have done something wrong</h4>
+</header>
      {% for post in posts %}
      <div id='wrapper'>
          <div id='post'>
              <div class='body'>
                  <div id='image'>
-                     <img src="{{asset(post.path)}}" alt="Sorry, we've messed up :("  width="450" height="300">
+                     <img src="{{asset(post.path)}}" alt="Sorry, we've messed up :("  width="600" height="450">
                  </div>
 
 
                  <div id='comments'>
-                     <P> <a href="{{ path('whathaveidonenowblog_viewpost', {'id': post.id})}}"> {{post.title }} </a> </P>
+                     <div id="post_title"><P><a href="{{ path('whathaveidonenowblog_viewpost', {'id': post.id})}}"> {{post.title }} </a> </P></div>
                      		<p>{{ post.description }} </p>
                          </button>
-                         <p>Total number of commentsgoes here</p>
+                       <div id="comment_link"><a href="{{ path('whathaveidonenowblog_viewpost', {'id': post.id})}}">Click to View Comments</a></div>
                  </div>
                  </div>
          </div>
