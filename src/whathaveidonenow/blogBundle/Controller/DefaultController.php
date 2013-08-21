@@ -31,7 +31,7 @@ class DefaultController extends Controller
             ->add('title', 'text')  // post title field
             ->add('description', 'text')  // description field
             ->add('relation', 'choice', array(     // relationship to person posting review
-                'choices'   => array('Girlfriend' => 'Girlfriend', 'Wife ' => 'Wife',
+                'choices'   => array('Girlfriend' => 'Girlfriend', 'Wife' => 'Wife',
                 'Boyfriend' => 'Boyfriend', 'Husband' => 'Husband'),
                 'required'  => true ))
             ->add('file','file')   // screenshot of message file
