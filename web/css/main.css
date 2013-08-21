@@ -1,362 +1,405 @@
 body {
-	background-image: url('../images/background.jpg');
-	background-repeat: repeat;
-	background-size: cover;
+    background-image: url('../images/background.jpg');
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 #logo {
-	width: 960px;
-	margin: 0 auto;
-	position: relative;
-	margin-bottom: 10px;
-	color: #000;
-	background: #f3961c;
-	/* default background for browsers without gradient support */
-	/* css3 */
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff),
-	to(#e1e2e3) );
-	background: -moz-linear-gradient(#ffffff, #e1e2e3);
-	background: -o-linear-gradient(#ffffff, #e1e2e3);
-	background: linear-gradient(#ffffff, #e1e2e3);
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 10px;
+    color: #000;
+    background: #f3961c;
+    /* default background for browsers without gradient support */
+    /* css3 */
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e1e2e3));
+    background: -moz-linear-gradient(#ffffff, #e1e2e3);
+    background: -o-linear-gradient(#ffffff, #e1e2e3);
+    background: linear-gradient(#ffffff, #e1e2e3);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 #header_link a {
-	text-decoration: none;
-	color:red;
+    text-decoration: none;
 }
 
 #wrapper {
-	height: 460px;
-	width: 960px;
-	margin: 0 auto;
-	position: relative;
-	padding: 15px;
-	margin-bottom: 50px;
-	padding-bottom: 20px;
-	color: #000;
-	background: #f3961c;
-	/* default background for browsers without gradient support */
-	/* css3 */
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff),
-	to(#e1e2e3) );
-	background: -moz-linear-gradient(#ffffff, #e1e2e3);
-	background: -o-linear-gradient(#ffffff, #e1e2e3);
-	background: linear-gradient(#ffffff, #e1e2e3);
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+    height: 460px;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    color: #000;
+    background: #f3961c;
+    /* default background for browsers without gradient support */
+    /* css3 */
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e1e2e3));
+    background: -moz-linear-gradient(#ffffff, #e1e2e3);
+    background: -o-linear-gradient(#ffffff, #e1e2e3);
+    background: linear-gradient(#ffffff, #e1e2e3);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 #wrapper:after {
-	content: "";
-	position: absolute;
-	bottom: -15px; /* value = - border-top-width - border-bottom-width */
-	left: 50px; /* controls horizontal position */
-	border-width: 15px 15px 0;
-	/* vary these values to change the angle of the vertex */
-	border-style: solid;
-	border-color: #e1e2e3 transparent;
-	/* reduce the damage in FF3.0 */
-	display: block;
-	width: 0;
+    content: "";
+    position: absolute;
+    bottom: -15px; /* value = - border-top-width - border-bottom-width */
+    left: 50px; /* controls horizontal position */
+    border-width: 15px 15px 0;
+    /* vary these values to change the angle of the vertex */
+    border-style: solid;
+    border-color: #e1e2e3 transparent;
+    /* reduce the damage in FF3.0 */
+    display: block;
+    width: 0;
 }
 
 #tbl_wrap {
-	height: 100%;
-	width: 100%;
-	padding: 0;
-	margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 #td_wrap {
-	vertical-align: middle;
-	text-align: center;
+    vertical-align: middle;
+    text-align: center;
 }
 
 h1 {
-	font-family: 'Numans', sans-serif;
-	font-weight: 400;
-	text-align: center;
-	font-size: 72px;
-	color: #C8C8C8;
-	line-height: 10%;
-	text-decoration:none;
+    font-family: 'Numans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 72px;
+    color: #C8C8C8;
+    line-height: 10%;
+    text-decoration: none;
 }
 
 #logo {
-	font-family: 'Numans', sans-serif;
-	font-weight: 400;
-	font-size: 25px;
-	border-width: 2px;
-	border: solid;
+    font-family: 'Numans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    border-width: 2px;
+    border: solid;
 }
 
 h2 {
-	text-align: center;
+    text-align: center;
 }
 
 h4 {
-	font-family: 'Numans', sans-serif;
-	font-weight: 400;
-	text-align: center;
-	font-size: 20px;
-	color: #C8C8C8;
-	line-height: 10%;
+    font-family: 'Numans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    color: #C8C8C8;
+    line-height: 10%;
 }
 
-
-
 button {
-	text-decoration: none;
-	font-size: 20px;
-	background-color: transparent;
-	font-family: Arial, Helvetica, sans-serif;
-	border: solid;
-	color: grey;
-	border-color: grey;
-	border-width: 2px;
-	-moz-border-radius: 30px;
-	-webkit-border-radius: 30px;
-	border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid;
+    color: grey;
+    border-color: grey;
+    border-width: 2px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
 }
 
 button .comment {
-	display: none;
+    display: none;
 }
 
 button:hover .comment_short {
-	display: none;
+    display: none;
 }
 
 button:hover .comment {
-	display: inline;
+    display: inline;
 }
 
 button .share {
-	display: none;
+    display: none;
 }
 
 button:hover .share_short {
-	display: none;
+    display: none;
 }
 
 button:hover .share {
-	display: inline;
+    display: inline;
 }
 
 button .post_long {
-	display: none;
+    display: none;
 }
 
 button:hover .post_short {
-	display: none;
+    display: none;
 }
 
 button:hover .post_long {
-	display: inline;
+    display: inline;
 }
 
 #image {
-	float: left;
-	background-color: white;
-	border: dashed;
-	color: #C8C8C8;
-	border-width: 1px;
-	width: 490px;
-	height: 450px;
+    float: left;
+    background-color: white;
+    border: dashed;
+    color: #C8C8C8;
+    border-width: 1px;
+    width: 600px;
+    height: 450px;
 }
 
+#image img {
+    max-width:100%;
+    max-height:100%;
+}
 #comments {
-	float: right;
-	width: 340px;
+    float: right;
+    width: 340px;
 }
 
 #comments p {
-	font-family: 'Numans', sans-serif;
-	font-weight: 400;
-	padding: 2px;
-	text-align: left;
-	border: dashed;
-	text-color: black;
-	border-color: #C8C8C8;
-	border-top: 1px;
-	border-right: 1px;
-	border-left: 1px;
+    font-family: 'Numans', sans-serif;
+    font-weight: 400;
+    padding: 2px;
+    text-align: left;
+    border: dashed;
+    text-color: black;
+    border-color: #C8C8C8;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
 }
 
 #top_post {
-	width: 960px;
-	margin: 0 auto;
-	margin-bottom: 10px;
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 #top_post button {
-	display: block;
-	margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
 #add_post {
-	padding-right: 225px;
-	float: left;
-	font-family: 'Numans', sans-serif;
-	font-weight: 400;
-	padding: 50px;
-	text-align: left;
+    padding-right: 225px;
+    float: left;
+    font-family: 'Numans', sans-serif;
+    font-weight: 400;
+    padding: 50px;
+    text-align: left;
 }
-
 
 #title {
-	padding:10px;
+    padding: 10px;
 }
+
 #description {
-	padding:10px;
+    padding: 10px;
 }
 
 #relation {
-	padding:10px;
+    padding: 10px;
 }
 
 #file {
-	padding:10px;
+    padding: 10px;
 }
 
-
 #instructions {
-	float: right;
-	width: 400px;
+    float: right;
+    width: 400px;
 }
 
 #instructions p {
-	font-family: 'Numans', sans-serif;
-	font-weight: 400;
-	line-height: 1.5;
-	padding-bottom: 10px;
-	text-align: left;
-	border: dashed;
-	border-color: #C8C8C8;
-	border-top: 1px;
-	border-right: 1px;
-	border-left: 1px;
+    font-family: 'Numans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    text-align: left;
+    border: dashed;
+    border-color: #C8C8C8;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
 }
 
 #footer p {
-	font-family: 'Numans', sans-serif;
-	color: #C8C8C8;
-	margin: 0 auto;
-	width: 960px;
-	text-align: center;
+    font-family: 'Numans', sans-serif;
+    color: #C8C8C8;
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
 }
 
 button {
-	border: 1px solid #115e14;
-	background: #1c8234;
-	background: -webkit-gradient(linear, left top, left bottom, from(#105c0e), to(#1c8234));
-	background: -webkit-linear-gradient(top, #105c0e, #1c8234);
-	background: -moz-linear-gradient(top, #105c0e, #1c8234);
-	background: -ms-linear-gradient(top, #105c0e, #1c8234);
-	background: -o-linear-gradient(top, #105c0e, #1c8234);
-	padding: 5px 25px;
-	-webkit-border-radius: 40px;
-	-moz-border-radius: 40px;
-	border-radius: 40px;
-	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-	box-shadow: rgba(0,0,0,1) 0 1px 0;
-	text-shadow: rgba(0,0,0,.4) 0 1px 0;
-	color: white;
-	font-size: 19px;
-	font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
-	text-decoration: none;
-	vertical-align: middle;
+    border: 1px solid #115e14;
+    background: #1c8234;
+    background: -webkit-gradient(linear, left top, left bottom, from(#105c0e), to(#1c8234));
+    background: -webkit-linear-gradient(top, #105c0e, #1c8234);
+    background: -moz-linear-gradient(top, #105c0e, #1c8234);
+    background: -ms-linear-gradient(top, #105c0e, #1c8234);
+    background: -o-linear-gradient(top, #105c0e, #1c8234);
+    padding: 5px 25px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-size: 19px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
 }
-button:hover  {
-	border-top-color: #1c8234;
-	background: #1c8234;
-	}
+
+button:hover {
+    border-top-color: #1c8234;
+    background: #1c8234;
+}
+
 .button:active {
-	border-top-color: #0e540d;
-	background: #0e540d;
+    border-top-color: #0e540d;
+    background: #0e540d;
 }
 
 #social_network {
-	position: fixed;
-	right: 0;
-	top: 50%;
-	margin-top: -2.5em;
-	margin-left:-10px;
-	background-color: black;
-	opacity: 0.6;
-	filter: alpha(opacity=60);
-	-webkit-border-radius: 20px 0px 0px 20px;
-	-moz-border-radius: 20px 0px 0px 20px;
-	border-radius: 20px 0px 0px 20px;
-	text-align: center;
-	width: 140px;
-	padding-bottom:10px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -2.5em;
+    margin-left: -10px;
+    background-color: black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -webkit-border-radius: 20px 0px 0px 20px;
+    -moz-border-radius: 20px 0px 0px 20px;
+    border-radius: 20px 0px 0px 20px;
+    text-align: center;
+    width: 140px;
+    padding-bottom: 10px;
 }
 
 #social_network p {
-	color:#C8C8C8;
+    color: #C8C8C8;
 }
 
-#social_network img:hover{
-	opacity:1.0;
-	filter: alpha(opacity=100);
+#social_network img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
 
 #post_banner {
-	position:fixed;
-	right: 0;
-	top: 0
+    position: fixed;
+    right: 0;
+    top: 0
 }
 
-#Post{
-	-webkit-transform:rotate(45deg);
-	-moz-transform:rotate(45deg);
-	-o-transform:rotate(45deg);
-	-ms-transform:rotate(45deg);
-	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
-	width:300px;
-	margin-top:50px;
-	margin-right:-80px;
-} 
-
+#Post {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
+    width: 300px;
+    margin-top: 50px;
+    margin-right: -80px;
+}
 
 #wrapper_post {
-	height: 100%;
-	width: 960px;
-	margin: 0 auto;
-	position: relative;
-	padding: 15px;
-	margin-bottom: 50px;
-	padding-bottom: 20px;
-	color: #000;
-	background: #f3961c;
-	/* default background for browsers without gradient support */
-	/* css3 */
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff),
-	to(#e1e2e3) );
-	background: -moz-linear-gradient(#ffffff, #e1e2e3);
-	background: -o-linear-gradient(#ffffff, #e1e2e3);
-	background: linear-gradient(#ffffff, #e1e2e3);
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+    height: 100%;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    color: #000;
+    background: #f3961c;
+    /* default background for browsers without gradient support */
+    /* css3 */
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e1e2e3));
+    background: -moz-linear-gradient(#ffffff, #e1e2e3);
+    background: -o-linear-gradient(#ffffff, #e1e2e3);
+    background: linear-gradient(#ffffff, #e1e2e3);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 #wrapper_post:after {
-	content: "";
-	position: absolute;
-	bottom: -15px; /* value = - border-top-width - border-bottom-width */
-	left: 50px; /* controls horizontal position */
-	border-width: 15px 15px 0;
-	/* vary these values to change the angle of the vertex */
-	border-style: solid;
-	border-color: #e1e2e3 transparent;
-	/* reduce the damage in FF3.0 */
-	display: block;
-	width: 0;
+    content: "";
+    position: absolute;
+    bottom: -15px; /* value = - border-top-width - border-bottom-width */
+    left: 50px; /* controls horizontal position */
+    border-width: 15px 15px 0;
+    /* vary these values to change the angle of the vertex */
+    border-style: solid;
+    border-color: #e1e2e3 transparent;
+    /* reduce the damage in FF3.0 */
+    display: block;
+    width: 0;
+}
+
+#comment_link a {
+    color: #115e14;
+}
+
+#post_title {
+
+    border: dashed;
+    border-color: #C8C8C8;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    width: 340px;
+}
+
+#post_title a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+#post_title_post_page {
+
+    border: dashed;
+    border-color: #C8C8C8;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    width: 940px;
+}
+
+#post_title_post_page p {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#post_details {
+    padding-top: 650px;
+    width: 955px;
+    height: 100%;
 }

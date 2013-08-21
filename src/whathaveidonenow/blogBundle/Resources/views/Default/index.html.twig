@@ -3,19 +3,25 @@
  {% block javascripts %}
 
      <div id="fb-root"></div>
-     <script>(function(d, s, id) {
+     <script>(function (d, s, id) {
              var js, fjs = d.getElementsByTagName(s)[0];
              if (d.getElementById(id)) return;
-             js = d.createElement(s); js.id = id;
+             js = d.createElement(s);
+             js.id = id;
              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1404066886485988";
              fjs.parentNode.insertBefore(js, fjs);
          }(document, 'script', 'facebook-jssdk'));
 
-         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
-             if(!d.getElementById(id)){js=d.createElement(s);
-                 js.id=id;js.src="//platform.twitter.com/widgets.js";
-                 fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-        </script>
+         !function (d, s, id) {
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (!d.getElementById(id)) {
+                 js = d.createElement(s);
+                 js.id = id;
+                 js.src = "//platform.twitter.com/widgets.js";
+                 fjs.parentNode.insertBefore(js, fjs);
+             }
+         }(document, "script", "twitter-wjs");
+     </script>
 
 
  {% endblock %}
@@ -24,38 +30,46 @@
      <div id="social_network">
          <ul>
              <li id="follow"><p>Follow us!</p>
-             <li> <a href="https://www.facebook.com/pages/What-Have-I-Done-Now/492860340799257" target="_blank"><img src="../images/facebook.png" alt="Facebook" width="48"></a>  </li>
-             <li> <a href="https://twitter.com/wathaveidonenow" class="" data-show-count="false" data-lang="en"><img src="../images/twitter.png" alt="Twitter"></a></li>
+             <li><a href="https://www.facebook.com/pages/What-Have-I-Done-Now/492860340799257" target="_blank"><img
+                             src="../images/facebook.png" alt="Facebook" width="48"></a></li>
+             <li><a href="https://twitter.com/wathaveidonenow" class="" data-show-count="false" data-lang="en"><img
+                             src="../images/twitter.png" alt="Twitter"></a></li>
          </ul>
      </div>
 
      <div id="post_banner">
-         <button id="Post" name="Post" onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup')}}'">Post a screw up!</button>
+         <button id="Post" name="Post" onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup') }}'">Post a
+             screw up!
+         </button>
      </div>
      <header>
-	<div id="logo1">
-        <div id="header_link"><a href="{{path('whathaveidonenowblog_homepage')}}"><h1>WhatHaveIDoneNow?!</h1></a></div>
-	</div>
-	<h4>because no matter what, you"ll have done something wrong</h4>
-</header>
+         <div id="logo1">
+             <div id="header_link"><a href="{{ path('whathaveidonenowblog_homepage') }}"><h1>WhatHaveIDoneNow?!</h1></a>
+             </div>
+         </div>
+         <h4>because no matter what, you"ll have done something wrong</h4>
+     </header>
      {% for post in posts %}
-     <div id='wrapper'>
-         <div id='post'>
-             <div class='body'>
+         <div id='wrapper'>
+             <div id='post'>
                  <div id='image'>
-                     <img src="{{asset(post.path)}}" alt="Sorry, we've messed up :("  width="600" height="450">
+                     <img src="{{ asset(post.path) }}" alt="Sorry, we've messed up :(" >
                  </div>
 
 
                  <div id='comments'>
-                     <div id="post_title"><P><a href="{{ path('whathaveidonenowblog_viewpost', {'id': post.id})}}"> {{post.title }} </a> </P></div>
-                     		<p>{{ post.description }} </p>
-                         </button>
-                       <div id="comment_link"><a href="{{ path('whathaveidonenowblog_viewpost', {'id': post.id})}}">Click to View Comments</a></div>
+                     <div id="post_title"><a
+                                 href="{{ path('whathaveidonenowblog_viewpost', {'id': post.id}) }}"> {{ post.title }} </a>
+                     </div>
+
+
+                     <p>From the: {{ post.relation }}<br><br>{{ post.description }} </p>
+                         <span id="comment_link"><a href="{{ path('whathaveidonenowblog_viewpost', {'id': post.id}) }}">Click
+                                 to View Comments</a></span>
                  </div>
-                 </div>
+
+             </div>
          </div>
-     </div>
      {% endfor %}
  {% endblock %}
 
