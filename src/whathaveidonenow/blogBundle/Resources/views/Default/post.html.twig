@@ -3,10 +3,11 @@
  {% block javascripts %}
 
      <div id="fb-root"></div>
-     <script>(function(d, s, id) {
+     <script>(function (d, s, id) {
              var js, fjs = d.getElementsByTagName(s)[0];
              if (d.getElementById(id)) return;
-             js = d.createElement(s); js.id = id;
+             js = d.createElement(s);
+             js.id = id;
              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1404066886485988";
              fjs.parentNode.insertBefore(js, fjs);
          }(document, 'script', 'facebook-jssdk'));
@@ -16,38 +17,50 @@
  {% endblock %}
 
  {% block body %}
-	 <div id="social_network">
+     <div id="social_network">
          <ul>
              <li id="follow"><p>Follow us!</p>
-             <li> <a href="https://www.facebook.com/pages/What-Have-I-Done-Now/492860340799257" target="_blank"><img src="../images/facebook.png" alt="Facebook" width="48" height="48" border="0"></a>  </li>
-             <li> <a href="https://twitter.com/wathaveidonenow" class="" data-show-count="false" data-lang="en"><img src="../images/twitter.png" alt="Twitter" width="48" height="48" border="0"></a></li>
+             <li><a href="https://www.facebook.com/pages/What-Have-I-Done-Now/492860340799257" target="_blank"><img
+                             src="../images/facebook.png" alt="Facebook" width="48" height="48" border="0"></a></li>
+             <li><a href="https://twitter.com/wathaveidonenow" class="" data-show-count="false" data-lang="en"><img
+                             src="../images/twitter.png" alt="Twitter" width="48" height="48" border="0"></a></li>
          </ul>
      </div>
-	<div id="post_banner">
-         <button id="Post" name="Post" onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup')}}'">Post a screw up!</button>
+     <div id="post_banner">
+         <button id="Post" name="Post" onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup') }}'">Post a
+             screw up!
+         </button>
      </div>
      <header>
-	<div id="logo1">
-        <div id="header_link"><a href="{{path('whathaveidonenowblog_homepage')}}"><h1>WhatHaveIDoneNow?!</h1></a></div>
-	</div>
-	<h4>because no matter what, you"ll have done something wrong</h4>
-</header>
+         <div id="logo1">
+             <div id="header_link"><a href="{{ path('whathaveidonenowblog_homepage') }}"><h1>WhatHaveIDoneNow?!</h1></a>
+             </div>
+         </div>
+         <h4>because no matter what, you"ll have done something wrong</h4>
+     </header>
      <div id='wrapper_post'>
          <div id='post'>
              <div class='body'>
                  <div id='image'>
-                     <img src="{{asset(post.path)}}" alt="Sorry, we've messed up :("  width="900" height="600">
+                     <img src="{{ asset(post.path) }}" alt="Sorry, we've messed up :(" width="955" height="655">
                  </div>
 
+                 <div id='post_details'>
+                     <div id='post_title_post_page'><p> {{ post.title }} </p></div>
+                     <p>From the: {{ post.relation }}</p>
+                     <p>{{ post.description }} </p>
 
+                 </div>
                  <div id='facebook_comments'>
-                     <P>Comments</P>
+                     <p>Comments</p>
 
-                             <div class="fb-like" data-href="{{ app.request.uri }}" data-width="400" data-colorscheme="dark" data-show-faces="true" data-send="true"></div>
-                             <div class="fb-comments" data-href="{{ app.request.uri }}" data-colorscheme="light" data-width="900"></div>
+                     <div class="fb-like" data-href="{{ app.request.uri }}" data-width="955" data-colorscheme="dark"
+                          data-show-faces="true" data-send="true"></div>
+                     <div class="fb-comments" data-href="{{ app.request.uri }}" data-colorscheme="light"
+                          data-width="955"></div>
 
                  </div>
-                 </div>
+             </div>
          </div>
      </div>
  {% endblock %}

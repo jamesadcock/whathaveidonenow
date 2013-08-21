@@ -1,47 +1,53 @@
 {% extends "::base.html.twig" %} {% block body %}
-<div id="social_network">
-         <ul>
-             <li id="follow"><p>Follow us!</p>
-             <li> <a href="https://www.facebook.com/pages/What-Have-I-Done-Now/492860340799257" target="_blank"><img src="../images/facebook.png" alt="Facebook" width="48" height="48" border="0"></a>  </li>
-             <li> <a href="https://twitter.com/wathaveidonenow" class="" data-show-count="false" data-lang="en"><img src="../images/twitter.png" alt="Twitter" width="48" height="48" border="0"></a></li>
-         </ul>
-     </div>
-<div id="post_banner">
-         <button id="Post" name="Post" onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup')}}'">Home Page</button>
-     </div>
-<header>
-	<div id="logo1">
-        <div id="header_link"><a href="{{path('whathaveidonenowblog_homepage')}}"><h1>WhatHaveIDoneNow?!</h1></a></div>
-	</div>
-	<h4>because no matter what, you"ll have done something wrong</h4>
-</header>
-<div id="wrapper">
+    <div id="social_network">
+        <ul>
+            <li id="follow"><p>Follow us!</p>
+            <li><a href="https://www.facebook.com/pages/What-Have-I-Done-Now/492860340799257" target="_blank"><img
+                            src="../images/facebook.png" alt="Facebook" width="48" height="48" border="0"></a></li>
+            <li><a href="https://twitter.com/wathaveidonenow" class="" data-show-count="false" data-lang="en"><img
+                            src="../images/twitter.png" alt="Twitter" width="48" height="48" border="0"></a></li>
+        </ul>
+    </div>
+    <div id="post_banner">
+        <button id="Post" name="Post" onclick="self.location=' {{ path('whathaveidonenowblog_postscrewup') }}'">Home
+            Page
+        </button>
+    </div>
+    <header>
+        <div id="logo1">
+            <div id="header_link"><a href="{{ path('whathaveidonenowblog_homepage') }}"><h1>WhatHaveIDoneNow?!</h1></a>
+            </div>
+        </div>
+        <h4>because no matter what, you"ll have done something wrong</h4>
+    </header>
+    <div id="wrapper">
 
-	<div id="add_post">
+        <div id="add_post">
 
-        {{ form_start(form) }}
-        {{ form_errors(form) }}
+            {{ form_start(form) }}
+            {{ form_errors(form) }}
 
-      <div id="title">  {{ form_row(form.title) }} </div>
-      <div id="description"> {{ form_row(form.description) }} </div>
-      <div id="relation"> {{ form_row(form.relation) }} </div>
-      <div id="file"> {{ form_row(form.file) }} </div>
+            <div id="title">  {{ form_row(form.title) }} </div>
+            <div id="description"> {{ form_row(form.description) }} </div>
+            <div id="relation"> {{ form_row(form.relation) }} </div>
+            <div id="file"> {{ form_row(form.file) }} </div>
 
-        {{ form_end(form) }}
+            {{ form_end(form) }}
 
-	</div>
-	
-	<div id='instructions'>
-		<p>Instructions</p>
-		<p>It is incredible easy to post your screw ups! </br>
-			1. Give your post a title, </br>
- 			2. Enter some text describing how you 'screwed up'</br>
- 			3. Tell us who sent you the message, </br>
- 			4. Upload the screenshot of the email or text, </br>
- 			5. And Finally, Click Save! </br>
- 			</p>
-	</div>
+        </div>
 
-</div>
+        <div id='instructions'>
+            <p>Instructions</p>
 
-	{% endblock %}
+            <p>It is incredible easy to post your screw ups! </br>
+                1. First, give your post a title, </br>
+                2. Then enter some text describing how you 'screwed up'</br>
+                3. Now tell us who sent you the message, </br>
+                4. Upload the screenshot of the email or text, </br>
+                5. And Finally, Click Save! </br>
+            </p>
+        </div>
+
+    </div>
+
+{% endblock %}

@@ -60,10 +60,12 @@
 
                      <div id='comments'>
                          <div id="post_title"><a
-                                         href="{{ path('whathaveidonenowblog_viewpost', {'id': post.id}) }}"> {{ post.title }} </a>
-                             </div>
+                                     href="{{ path('whathaveidonenowblog_viewpost', {'id': post.id}) }}"> {{ post.title }} </a>
+                         </div>
 
-                         <p>{{ post.description }} </p>
+
+
+                         <p>From the: {{ post.relation }}<br><br>{{ post.description }} </p>
                          <span id="comment_link"><a href="{{ path('whathaveidonenowblog_viewpost', {'id': post.id}) }}">Click
                                  to View Comments</a></span>
                      </div>
